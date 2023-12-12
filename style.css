@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+section{
+  width: 70vw;
+  max-width: 400px;
+  background-color:#333;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 2rem;
+}
+
+h1{
+  color: whitesmoke;
+  font-weight: bolder;
+}
+#input{
+  padding: 0.5em;
+  font-size: 1rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+}
+
+#bt{
+  font-size: 1rem;
+  padding: 0.5em 2em;
+
+}
+
+#image{
+  margin: 1rem;
+}
